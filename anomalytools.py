@@ -260,3 +260,136 @@ def get_nuR(row,model='DarkDirac',Dim=5):
         return nuR    
     else: 
         return 0
+
+def extract(l,x,νmax=5):
+    for i in range(νmax):
+        try:
+            l.remove(x)
+        except:
+            break
+    return l
+
+def remove_list(l,pr):
+    for x in pr:
+        try:
+            l=extract(l,x)
+        except:
+            pass
+    return l
+
+def remove(l,pr):
+    if pr:
+        pr=np.concatenate(pr).ravel()
+    l=remove_list(l,pr)
+    return l
+
+def get_massless_fermions(l,ν,m=0,Dim=5):
+    '''
+    Zero determinant check implemented.
+    '''
+    if Dim==5:
+        d=1
+    elif Dim==6:
+        d=2
+    s=-(ν+m)//d
+    l=extract(l,ν)
+    lold=l.copy()
+    if m:
+        l=extract(l,m)
+    #Dirac masses
+    det0=0
+    pr=[ p for  p in get_permutations( l,n=2  ) if np.append( p,s).sum()==0 or np.append( p,-s).sum()==0 ]
+    #print(pr,s)
+    for i in range(len(pr)):
+        if pr and sum( [ lold.count(x) for x in pr[i] ] )%2!=0:
+            det0=det0+1
+        l=remove(l,pr)
+        if det0!=0:
+            l.append(-1000)
+
+    #Majorana masses
+    pr=[ll for ll in l if 2*ll+s==0 or 2*ll-s==0]
+    l=remove_list(l,pr)
+    #print(pr,s)
+    #If repeated an extra S' gives at least degenerate Majorana mass
+    return list(np.unique(l))
+    #return l
+
+
+def count_massless_fermions(l,ν,m=0,Dim=5):
+    return len( get_massless_fermions(l,ν,m,Dim=Dim) )
+
+def get_label(model,Dim=5):
+    if Dim==5:
+        dd=''
+        dm=1
+    elif Dim==6:
+        dd='2'
+        dm=2    
+    if model=='DarkDirac':
+        label='D→nu_R+{}fi+{}fj'.format(dd,dd)
+    elif model=='DarkMajor':
+        label='D→nu_R+{}fi'.format(2*dm)
+    elif model=='XDirac':
+        label='X→nu_R+{}fi+{}fj'.format(dd,dd)
+    else:
+        label='X→nu_R+{}fi'.format(2*dm)
+    return model,label
+
+def sltn_intersection(row,model='DarkDirac',Dim=5):
+    model,label=get_label(model,Dim=Dim)
+    sltn_int=0
+    l=list(itertools.chain(*row['sltn'].values() ) )
+    #print(l,label)
+    for d in row['nu_R']:
+        if d.get(label):
+            #print(d)
+            intrs=len(np.intersect1d(d.get(label), l ))
+            if intrs>sltn_int:
+                sltn_int=intrs
+    return sltn_int
+
+def massfer(row,label='DarkDirac',nmax=10,Dim=5):        
+    # 
+    if label=='DarkDirac' or label=='DarkMajor':
+        if label=='DarkDirac':
+            nuR='DD'
+        else:
+            nuR='DM'
+        if row.get(label)>0:
+            cdd=[]
+            for ν in row.get(nuR):
+                l=row.get('solution').copy()
+                cdd.append( count_massless_fermions(l , ν,Dim=Dim)  )
+            return min(cdd)
+        else:
+            return nmax
+    if label=='XDirac' or label=='XMajor':
+        if label=='XDirac':
+            nuR='XD'
+        else:
+            nuR='XM'
+        if row.get(label)>0:
+            cddmax=100
+            for m in row['sltn'].get(3):
+                cdp=[]
+                for ν in row.get(nuR):
+                    l=row.get('solution').copy()
+                    l=[ll for ll in l if ll!=m]
+                    cdp.append( count_massless_fermions(l , ν,m,Dim=Dim)  )
+                if min(cdp)<cddmax:
+                    cdd=cdp
+            return min(cdd)
+        else:
+            return nmax
+        
+def get_permutations(l,n=3):
+    prmts=[]
+    for p in itertools. permutations(l, n):
+        if sorted(p) not in prmts:
+            prmts.append(sorted(p))
+    return [ np.asarray(p) for p in prmts if isinstance(p,list) ]
+def jsonKeys2int(x):
+    if isinstance(x, dict):
+            return {int(k):v for k,v in x.items()}
+    return x
