@@ -2,6 +2,7 @@
 import numpy as np
 import itertools
 import sys
+from joblib import Parallel, delayed
 from anomalies import anomaly
 z=anomaly.free
 def _get_chiral(q,q_max=np.inf):
@@ -19,6 +20,16 @@ def _get_chiral(q,q_max=np.inf):
         return q,GCD
     else:
         return None,None
+    
+def get_solution(l,k,sols=[],zmax=32):
+    q,gcd=_get_chiral( z(l,k) )
+    #if q is not None and np.abs(q).max()<=zmax:#
+    if q is not None and list(q) not in sols and np.abs(q).max()<=zmax:
+        sols.append(list(q))
+        return {'l':l,'k':k,'z':list(q),'gcd':gcd}
+    else:
+        return {}    
+    
 class solutions(object):
     '''
     Obtain anomaly free solutions with N chiral fields
@@ -31,12 +42,14 @@ class solutions(object):
     Redefine the self.chiral function to implement further restrictions:
     inherit from this class and define the new chiral function
     '''
-    def __init__(self,nmin=-2,nmax=2,zmax=np.inf):
+    def __init__(self,nmin=-2,nmax=2,zmax=np.inf,parallel=False,n_jobs=1):
         self.nmin=nmin
         self.nmax=nmax
         self.zmax=zmax
         self.CALL=False
         self.free=[]
+        self.parallel=parallel
+        self.n_jobs=n_jobs
 
 
     def __call__(self,N,*args,**kwargs):
@@ -57,7 +70,14 @@ class solutions(object):
         r=range(self.nmin,self.nmax+1)
         self.ls=list(itertools.product( *(r for i in range(N_l)) ))
         self.ks=list(itertools.product( *(r for i in range(N_k)) ))
-        return self.chiral(*args,**kwargs)
+        if not self.parallel:
+            return self.chiral(*args,**kwargs)
+        else:
+            sols=[]
+            return Parallel(n_jobs=self.n_jobs)(
+                     delayed(get_solution)(l, k,sols,self.zmax) 
+                     for k in self.ks for l in self.ls )
+            
         
         
     def chiral(self,*args,**kwargs):
@@ -71,7 +91,7 @@ class solutions(object):
                 k=list(k)
                 q,gcd=_get_chiral( z(l,k) )
                 #print(z(l,k))
-                if q is not None and list(q) not in self.list and list(-q) not in self.list:
+                if q is not None and list(q) not in self.list and np.abs(q).max()<=zmax:
                     self.list.append(list(q))
                     solt.append({'l':l,'k':k,'z':list(q),'gcd':gcd})
         return solt
