@@ -5,6 +5,8 @@ import sys
 from joblib import Parallel, delayed
 from anomalies import anomaly
 z=anomaly.free
+import warnings
+warnings.filterwarnings("ignore")
 def _get_chiral(q,q_max=np.inf):
     #Normalize to positive minimum
     if q[0]<0 or (q[0]==0 and q[1]<0):
@@ -74,11 +76,20 @@ class solutions(object):
             return self.chiral(*args,**kwargs)
         else:
             sols=[]
-            return Parallel(n_jobs=self.n_jobs)(
+            kk=1
+            ll=[]
+            #limit for 70 jobs and 96GB of RAM
+            ksmax=900000000 #900E6
+            if len(self.ls)*len(self.ks)>ksmax:
+                kk=(len(self.ls)*len(self.ks)+ksmax)//ksmax
+            for kq in range(kk):
+                if kk>1:
+                    ll=[d for d in ll if d]
+                    sols=[] # May be too big
+                ll=ll+Parallel(n_jobs=self.n_jobs)(
                      delayed(get_solution)(l, k,sols,self.zmax) 
-                     for k in self.ks for l in self.ls )
-            
-        
+                     for k in self.ks for l in self.ls[len(self.ls)*kq//kk:len(self.ls)*(kq+1)//kk] )
+            return ll
         
     def chiral(self,*args,**kwargs):
         if not self.CALL:
