@@ -1,3 +1,4 @@
+# %load solutions.py
 #TODO: inherit from free class
 import numpy as np
 import itertools
@@ -31,7 +32,17 @@ def get_solution(l,k,sols=[],zmax=32):
         return {'l':l,'k':k,'z':list(q),'gcd':gcd}
     else:
         return {}    
-    
+
+def clean_sols(l):
+    l=[d for d in l if d]
+    sols=[]
+    newl=[]
+    for d in l:
+        if d['z'] not in sols:
+            newl.append(d)
+            sols.append(d['z'])
+    return newl,sols
+
 class solutions(object):
     '''
     Obtain anomaly free solutions with N chiral fields
@@ -44,7 +55,7 @@ class solutions(object):
     Redefine the self.chiral function to implement further restrictions:
     inherit from this class and define the new chiral function
     '''
-    def __init__(self,nmin=-2,nmax=2,zmax=np.inf,parallel=False,n_jobs=1):
+    def __init__(self,nmin=-2,nmax=2,zmax=np.inf,parallel=False,n_jobs=1,max_size=900000000):
         self.nmin=nmin
         self.nmax=nmax
         self.zmax=zmax
@@ -52,6 +63,7 @@ class solutions(object):
         self.free=[]
         self.parallel=parallel
         self.n_jobs=n_jobs
+        self.max_size=max_size
 
 
     def __call__(self,N,*args,**kwargs):
@@ -60,7 +72,9 @@ class solutions(object):
         if kwargs.get('nmax'):
             self.nmax=kwargs['nmax']            
         if kwargs.get('zmax'):
-            self.zmax=kwargs['zmax']                        
+            self.zmax=kwargs['zmax']
+        if kwargs.get('max_size'):
+            self.max_size=kwargs['max_size']            
         self.CALL=True
         self.N=N
         if N%2!=0: #odd
@@ -79,13 +93,13 @@ class solutions(object):
             kk=1
             ll=[]
             #limit for 70 jobs and 96GB of RAM
-            ksmax=900000000 #900E6
+            ksmax=self.max_size
             if len(self.ls)*len(self.ks)>ksmax:
                 kk=(len(self.ls)*len(self.ks)+ksmax)//ksmax
             for kq in range(kk):
                 if kk>1:
-                    ll=[d for d in ll if d]
-                    sols=[] # May be too big
+                    ll,sols=clean_sols(ll) #unique solution dict and list
+                    print('chunk: {}'.format(len(sols)))
                 ll=ll+Parallel(n_jobs=self.n_jobs)(
                      delayed(get_solution)(l, k,sols,self.zmax) 
                      for k in self.ks for l in self.ls[len(self.ls)*kq//kk:len(self.ls)*(kq+1)//kk] )
