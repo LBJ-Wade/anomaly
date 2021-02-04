@@ -27,20 +27,58 @@ def _get_chiral(q,q_max=np.inf):
 def get_solution(l,k,sols=[],zmax=32):
     q,gcd=_get_chiral( z(l,k) )
     #if q is not None and np.abs(q).max()<=zmax:#
-    if q is not None and list(q) not in sols and np.abs(q).max()<=zmax:
-        sols.append(list(q))
+    if q is not None and np.abs(q).max()<=zmax:
+        #sols.append(list(q))
         return {'l':l,'k':k,'z':list(q),'gcd':gcd}
     else:
         return {}    
 
-def clean_sols(l):
+def clean_sols(l,DEBUG=False):
+    '''
+    For the list of the dictionaries, `l` search
+    the unique solutions with minimum `'gcd'` 
+    
+    Each dictionary must have at least the keys:
+      'l','k' → solution parameters
+       'z'   → solution
+       'gcd' → General commun denominator of the solution
+    '''
     l=[d for d in l if d]
     sols=[]
     newl=[]
-    for d in l:
-        if d['z'] not in sols:
-            newl.append(d)
-            sols.append(d['z'])
+    rptd=[]
+    for dd in l:
+        if DEBUG: print('dd →',dd)
+        if dd['z'] not in sols:
+            newl.append(dd)
+            sols.append(dd['z'])
+        elif dd['z'] in sols and dd['z'] not in rptd:
+            rptd.append(dd['z'])
+            if DEBUG: print('check gcd →',dd['z'])
+            dmin={}
+            mingcd=np.Inf
+            FOUND=False
+            irptd=-1
+            for d in l:
+                if dd['z']==d['z']: # must be also in newl
+                    for i in range(len(newl)):
+                        newd=newl[i]
+                        if dd['z']==newd['z']:
+                            if not FOUND:
+                                irptd=i
+                                FOUND=True
+                    
+                    if DEBUG: print('i →',i,irptd)
+                    if DEBUG: print('   d →',d)    
+                    #mingcd=dd['gcd']
+                    if DEBUG: print(mingcd,dd['gcd']),abs(d['gcd'])
+                    if abs( d['gcd'])<abs(dd['gcd'] ) and abs(d['gcd'])<mingcd:
+                        mingcd=d['gcd']
+                        if DEBUG: print('→→→',abs(dd['gcd']),abs(d['gcd']),mingcd)
+                        dmin=d
+            if dmin and irptd>-1:
+                #Replace with solution with minimum 'gcd'
+                newl[irptd]=dmin
     return newl,sols
 
 class solutions(object):
@@ -96,13 +134,15 @@ class solutions(object):
             ksmax=self.max_size
             if len(self.ls)*len(self.ks)>ksmax:
                 kk=(len(self.ls)*len(self.ks)+ksmax)//ksmax
+            #print('kk',kk)
             for kq in range(kk):
                 if kk>1:
-                    ll,sols=clean_sols(ll) #unique solution dict and list
                     print('chunk: {}'.format(len(sols)))
                 ll=ll+Parallel(n_jobs=self.n_jobs)(
                      delayed(get_solution)(l, k,sols,self.zmax) 
                      for k in self.ks for l in self.ls[len(self.ls)*kq//kk:len(self.ls)*(kq+1)//kk] )
+                self.full=ll
+                ll,sols=clean_sols(ll) #unique solution dict and list
             return ll
         
     def chiral(self,*args,**kwargs):
