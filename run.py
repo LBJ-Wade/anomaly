@@ -15,11 +15,11 @@ import time
 #warnings.filterwarnings("ignore")
 s=solutions.solutions(parallel=True,n_jobs=5)
 st=time.time()
-n=7
-#l=s(n,verbose=True,print_step=500000, nmin=-10,nmax=10,zmax=32)
-l =s(n,verbose=True,print_step=500000,nmin=-10,nmax=10,zmax=32,max_size= 900000000) #7
+n=9
+#l=s(n,verbose=True,print_step=500000, nmin=-10,nmax=10,zmax=32,,max_size=900000000) #6
+#l =s(n,verbose=True,print_step=500000,nmin=-10,nmax=10,zmax=32,max_size= 900000000) #7
 #l =s(n,verbose=True,print_step=500000,nmin=-15,nmax=15,zmax=32,max_size=900000000) #8
-#l =s(n,verbose=True,print_step=1000000,nmin=-12,nmax=12,zmax=32)
+l =s(n,verbose=True,print_step=1000000,nmin=-9,nmax=9,zmax=32,max_size=900000000) #9
 print(time.time()-st)
 l=[d for d in l if d]
 df=pd.DataFrame(l)
