@@ -47,7 +47,12 @@ def clean_sols(l,DEBUG=False):
     sols=[]
     newl=[]
     rptd=[]
+    step=len(l)//10
+    istep=0
     for dd in l:
+        istep=istep+1
+        if istep%step==0:
+            print('+',end='')
         if DEBUG: print('dd →',dd)
         if dd['z'] not in sols:
             newl.append(dd)
@@ -79,6 +84,7 @@ def clean_sols(l,DEBUG=False):
             if dmin and irptd>-1:
                 #Replace with solution with minimum 'gcd'
                 newl[irptd]=dmin
+    print('.')
     return newl,sols
 
 class solutions(object):
