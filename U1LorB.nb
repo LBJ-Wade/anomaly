@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    180366,       4748]
-NotebookOptionsPosition[    172504,       4475]
-NotebookOutlinePosition[    172865,       4491]
-CellTagsIndexPosition[    172822,       4488]
+NotebookDataLength[    204628,       5487]
+NotebookOptionsPosition[    194201,       5126]
+NotebookOutlinePosition[    194562,       5142]
+CellTagsIndexPosition[    194519,       5139]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1763,7 +1763,33 @@ Cell[BoxData[
        RowBox[{"\"\<\!\(\*SubscriptBox[\(z\), \(8\)]\)\>\"", "\[Rule]", "0"}],
         ",", 
        RowBox[{"\"\<m\>\"", "\[Rule]", "1"}], ",", 
-       RowBox[{"\"\<arXiv\>\"", "\[Rule]", "\"\<New II\>\""}]}], "|>"}]}], 
+       RowBox[{"\"\<arXiv\>\"", "\[Rule]", "\"\<New II\>\""}]}], "|>"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"<|", 
+      RowBox[{
+       RowBox[{"\"\<x'\>\"", "\[Rule]", 
+        RowBox[{"-", "5"}]}], ",", 
+       RowBox[{"\"\<x''\>\"", "\[Rule]", 
+        RowBox[{"-", "8"}]}], ",", 
+       RowBox[{"\"\<\!\(\*SubscriptBox[\(z\), \(1\)]\)\>\"", "\[Rule]", 
+        RowBox[{"-", "4"}]}], ",", 
+       RowBox[{"\"\<\!\(\*SubscriptBox[\(z\), \(2\)]\)\>\"", "\[Rule]", 
+        RowBox[{"-", "4"}]}], ",", 
+       RowBox[{"\"\<\!\(\*SubscriptBox[\(z\), \(3\)]\)\>\"", "\[Rule]", "8"}],
+        ",", 
+       RowBox[{"\"\<\!\(\*SubscriptBox[\(z\), \(4\)]\)\>\"", "\[Rule]", "0"}],
+        ",", 
+       RowBox[{"\"\<\!\(\*SubscriptBox[\(z\), \(5\)]\)\>\"", "\[Rule]", "0"}],
+        ",", 
+       RowBox[{"\"\<\!\(\*SubscriptBox[\(z\), \(6\)]\)\>\"", "\[Rule]", "0"}],
+        ",", 
+       RowBox[{
+       "\"\<\!\(\*SubscriptBox[\(z\), \(7\)]\)\>\"", "\[Rule]", " ", "0"}], 
+       ",", 
+       RowBox[{"\"\<\!\(\*SubscriptBox[\(z\), \(8\)]\)\>\"", "\[Rule]", "0"}],
+        ",", 
+       RowBox[{"\"\<m\>\"", "\[Rule]", "1"}], ",", 
+       RowBox[{"\"\<arXiv\>\"", "\[Rule]", "\"\<New III\>\""}]}], "|>"}]}], 
     "}"}], "]"}]}]], "Input",
  CellChangeTimes->{{3.832268789818035*^9, 3.832268789819174*^9}, {
    3.832268820396904*^9, 3.8322688220922422`*^9}, {3.832271411728163*^9, 
@@ -1783,14 +1809,15 @@ Cell[BoxData[
    3.832445728012353*^9, 3.8324457284735613`*^9}, 3.8324457836676207`*^9, 
    3.8324459265813923`*^9, {3.832446914420619*^9, 3.8324469338834476`*^9}, {
    3.8324539668496923`*^9, 3.8324539674652033`*^9}, {3.8324558937873898`*^9, 
-   3.832455960483033*^9}, 3.83245599441188*^9}],
+   3.832455960483033*^9}, 3.83245599441188*^9, {3.832802223957389*^9, 
+   3.8328022451782627`*^9}}],
 
 Cell[BoxData[
  TemplateBox[{TagBox[
     DynamicModuleBox[{
      TypeSystem`NestedGrid`PackagePrivate`$state$$ = 
       Data`UnorderedAssociation[
-       "RowCount" -> 7, "Length" -> 7, "InitialType" -> TypeSystem`Vector[
+       "RowCount" -> 8, "Length" -> 8, "InitialType" -> TypeSystem`Vector[
           
           TypeSystem`Struct[{
            "x'", "x''", "\!\(\*SubscriptBox[\(z\), \(1\)]\)", 
@@ -1805,7 +1832,7 @@ Cell[BoxData[
             TypeSystem`AnyType, TypeSystem`AnyType, TypeSystem`AnyType, 
             TypeSystem`AnyType, TypeSystem`AnyType, TypeSystem`AnyType, 
             TypeSystem`AnyType, TypeSystem`AnyType, 
-            TypeSystem`Atom[String]}], 7], "Shape" -> 
+            TypeSystem`Atom[String]}], 8], "Shape" -> 
         TypeSystem`PackageScope`HeaderShape[
           
           Association[{All, "x'"} -> 1, {All, "x''"} -> 
@@ -1842,8 +1869,8 @@ Cell[BoxData[
               TypeSystem`PackageScope`UnknownShape, "m" -> 
               TypeSystem`PackageScope`UnknownShape, "arXiv" -> 
               TypeSystem`PackageScope`AtomShape[96.00000000000001]]]], 
-           7, {}]], "InitialData" -> 
-        TypeSystem`PackageScope`CacheHandle[2079305163], "Type" -> 
+           8, {}]], "InitialData" -> 
+        TypeSystem`PackageScope`CacheHandle[1187563210], "Type" -> 
         TypeSystem`Vector[
           
           TypeSystem`Struct[{
@@ -1859,8 +1886,8 @@ Cell[BoxData[
             TypeSystem`AnyType, TypeSystem`AnyType, TypeSystem`AnyType, 
             TypeSystem`AnyType, TypeSystem`AnyType, TypeSystem`AnyType, 
             TypeSystem`AnyType, TypeSystem`AnyType, 
-            TypeSystem`Atom[String]}], 7], "HandleQ" -> True, "RowTarget" -> 
-        20, "Data" -> TypeSystem`PackageScope`CacheHandle[2079305163]], 
+            TypeSystem`Atom[String]}], 8], "HandleQ" -> True, "RowTarget" -> 
+        20, "Data" -> TypeSystem`PackageScope`CacheHandle[1187563210]], 
       TypeSystem`NestedGrid`PackagePrivate`$path$$ = {}, 
       TypeSystem`NestedGrid`PackagePrivate`$pos$$ = 1, 
       TypeSystem`NestedGrid`PackagePrivate`$grid$$ = 
@@ -1893,8 +1920,8 @@ Cell[BoxData[
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                    1994930982][{All, "x'"}]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                    1205830391][{All, "x'"}]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[All, "x'"]], "Mouse"], Background -> 
                 GrayLevel[0.95], Alignment -> {Left, Baseline}], 
                Item[
@@ -1922,8 +1949,8 @@ Cell[BoxData[
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                    1994930982][{All, "x''"}]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                    1205830391][{All, "x''"}]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[All, "x''"]], "Mouse"], Background -> 
                 GrayLevel[0.95], Alignment -> {Left, Baseline}], 
                Item[
@@ -1953,8 +1980,8 @@ Cell[BoxData[
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                    1994930982][{All, "\!\(\*SubscriptBox[\(z\), \(1\)]\)"}]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                    1205830391][{All, "\!\(\*SubscriptBox[\(z\), \(1\)]\)"}]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[
                   All, "\!\(\*SubscriptBox[\(z\), \(1\)]\)"]], "Mouse"], 
                 Background -> GrayLevel[0.95], Alignment -> {Left, Baseline}], 
@@ -1985,8 +2012,8 @@ Cell[BoxData[
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                    1994930982][{All, "\!\(\*SubscriptBox[\(z\), \(2\)]\)"}]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                    1205830391][{All, "\!\(\*SubscriptBox[\(z\), \(2\)]\)"}]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[
                   All, "\!\(\*SubscriptBox[\(z\), \(2\)]\)"]], "Mouse"], 
                 Background -> GrayLevel[0.95], Alignment -> {Left, Baseline}], 
@@ -2017,8 +2044,8 @@ Cell[BoxData[
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                    1994930982][{All, "\!\(\*SubscriptBox[\(z\), \(3\)]\)"}]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                    1205830391][{All, "\!\(\*SubscriptBox[\(z\), \(3\)]\)"}]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[
                   All, "\!\(\*SubscriptBox[\(z\), \(3\)]\)"]], "Mouse"], 
                 Background -> GrayLevel[0.95], Alignment -> {Left, Baseline}], 
@@ -2049,8 +2076,8 @@ Cell[BoxData[
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                    1994930982][{All, "\!\(\*SubscriptBox[\(z\), \(4\)]\)"}]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                    1205830391][{All, "\!\(\*SubscriptBox[\(z\), \(4\)]\)"}]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[
                   All, "\!\(\*SubscriptBox[\(z\), \(4\)]\)"]], "Mouse"], 
                 Background -> GrayLevel[0.95], Alignment -> {Left, Baseline}], 
@@ -2081,8 +2108,8 @@ Cell[BoxData[
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                    1994930982][{All, "\!\(\*SubscriptBox[\(z\), \(5\)]\)"}]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                    1205830391][{All, "\!\(\*SubscriptBox[\(z\), \(5\)]\)"}]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[
                   All, "\!\(\*SubscriptBox[\(z\), \(5\)]\)"]], "Mouse"], 
                 Background -> GrayLevel[0.95], Alignment -> {Left, Baseline}], 
@@ -2113,8 +2140,8 @@ Cell[BoxData[
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                    1994930982][{All, "\!\(\*SubscriptBox[\(z\), \(6\)]\)"}]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                    1205830391][{All, "\!\(\*SubscriptBox[\(z\), \(6\)]\)"}]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[
                   All, "\!\(\*SubscriptBox[\(z\), \(6\)]\)"]], "Mouse"], 
                 Background -> GrayLevel[0.95], Alignment -> {Left, Baseline}], 
@@ -2145,8 +2172,8 @@ Cell[BoxData[
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                    1994930982][{All, "\!\(\*SubscriptBox[\(z\), \(7\)]\)"}]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                    1205830391][{All, "\!\(\*SubscriptBox[\(z\), \(7\)]\)"}]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[
                   All, "\!\(\*SubscriptBox[\(z\), \(7\)]\)"]], "Mouse"], 
                 Background -> GrayLevel[0.95], Alignment -> {Left, Baseline}], 
@@ -2177,8 +2204,8 @@ Cell[BoxData[
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                    1994930982][{All, "\!\(\*SubscriptBox[\(z\), \(8\)]\)"}]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                    1205830391][{All, "\!\(\*SubscriptBox[\(z\), \(8\)]\)"}]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[
                   All, "\!\(\*SubscriptBox[\(z\), \(8\)]\)"]], "Mouse"], 
                 Background -> GrayLevel[0.95], Alignment -> {Left, Baseline}], 
@@ -2207,8 +2234,8 @@ Cell[BoxData[
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                    1994930982][{All, "m"}]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                    1205830391][{All, "m"}]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[All, "m"]], "Mouse"], Background -> 
                 GrayLevel[0.95], Alignment -> {Left, Baseline}], 
                Item[
@@ -2236,14 +2263,14 @@ Cell[BoxData[
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                    1994930982][{All, "arXiv"}]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                    1205830391][{All, "arXiv"}]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[All, "arXiv"]], "Mouse"], Background -> 
                 GrayLevel[0.95], Alignment -> {Left, Baseline}]}, {
                Pane[
                 Annotation[
                  RawBoxes["-1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[1, 
                    Key["x'"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2251,7 +2278,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["2"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[1, 
                    Key["x''"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2259,7 +2286,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[1, 
                    Key["\!\(\*SubscriptBox[\(z\), \(1\)]\)"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2267,7 +2294,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[1, 
                    Key["\!\(\*SubscriptBox[\(z\), \(2\)]\)"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2275,7 +2302,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[1, 
                    Key["\!\(\*SubscriptBox[\(z\), \(3\)]\)"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2283,7 +2310,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[1, 
                    Key["\!\(\*SubscriptBox[\(z\), \(4\)]\)"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2291,7 +2318,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[1, 
                    Key["\!\(\*SubscriptBox[\(z\), \(5\)]\)"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2299,7 +2326,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[1, 
                    Key["\!\(\*SubscriptBox[\(z\), \(6\)]\)"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2307,7 +2334,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["-1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[1, 
                    Key["\!\(\*SubscriptBox[\(z\), \(7\)]\)"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2315,7 +2342,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["-2"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[1, 
                    Key["\!\(\*SubscriptBox[\(z\), \(8\)]\)"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2323,13 +2350,13 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["-1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[1, 
                    Key["m"]]], "Mouse"], ImageSize -> {{34, Full}, Automatic},
                  Alignment -> {Left, Baseline}], 
                Pane[
                 Annotation["1706.01321", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[1, 
                    Key["arXiv"]]], "Mouse"], 
                 ImageSize -> {{96.00000000000001, Full}, Automatic}, 
@@ -2340,7 +2367,7 @@ Cell[BoxData[
                   StyleBox[
                   "xp", FontFamily -> "Courier", FontSize -> 13, 
                    ShowStringCharacters -> True]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[2, 
                    Key["x'"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2351,7 +2378,7 @@ Cell[BoxData[
                   StyleBox[
                   "xpp", FontFamily -> "Courier", FontSize -> 13, 
                    ShowStringCharacters -> True]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[2, 
                    Key["x''"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2362,7 +2389,7 @@ Cell[BoxData[
                   StyleBox[
                   "\[Nu]", FontFamily -> "Courier", FontSize -> 13, 
                    ShowStringCharacters -> True]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[2, 
                    Key["\!\(\*SubscriptBox[\(z\), \(1\)]\)"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2373,7 +2400,7 @@ Cell[BoxData[
                   StyleBox[
                   "\[Nu]", FontFamily -> "Courier", FontSize -> 13, 
                    ShowStringCharacters -> True]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[2, 
                    Key["\!\(\*SubscriptBox[\(z\), \(2\)]\)"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2384,7 +2411,7 @@ Cell[BoxData[
                   StyleBox[
                   "\[Nu]", FontFamily -> "Courier", FontSize -> 13, 
                    ShowStringCharacters -> True]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[2, 
                    Key["\!\(\*SubscriptBox[\(z\), \(3\)]\)"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2392,7 +2419,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[2, 
                    Key["\!\(\*SubscriptBox[\(z\), \(4\)]\)"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2400,7 +2427,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[2, 
                    Key["\!\(\*SubscriptBox[\(z\), \(5\)]\)"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2408,7 +2435,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[2, 
                    Key["\!\(\*SubscriptBox[\(z\), \(6\)]\)"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2419,7 +2446,7 @@ Cell[BoxData[
                   StyleBox[
                   "xp", FontFamily -> "Courier", FontSize -> 13, 
                    ShowStringCharacters -> True]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[2, 
                    Key["\!\(\*SubscriptBox[\(z\), \(7\)]\)"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2430,7 +2457,7 @@ Cell[BoxData[
                   StyleBox[
                    RowBox[{"-", "xpp"}], FontFamily -> "Courier", FontSize -> 
                    13, ShowStringCharacters -> True]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[2, 
                    Key["\!\(\*SubscriptBox[\(z\), \(8\)]\)"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2441,13 +2468,13 @@ Cell[BoxData[
                   StyleBox[
                    RowBox[{"-", "\[Nu]"}], FontFamily -> "Courier", FontSize -> 
                    13, ShowStringCharacters -> True]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[2, 
                    Key["m"]]], "Mouse"], ImageSize -> {{60, Full}, Automatic},
                  Alignment -> {Left, Baseline}], 
                Pane[
                 Annotation["1706.01321", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[2, 
                    Key["arXiv"]]], "Mouse"], 
                 ImageSize -> {{96.00000000000001, Full}, Automatic}, 
@@ -2455,7 +2482,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["-3"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[3, 
                    Key["x'"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2463,7 +2490,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[3, 
                    Key["x''"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2471,7 +2498,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["-2"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[3, 
                    Key["\!\(\*SubscriptBox[\(z\), \(1\)]\)"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2479,7 +2506,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["-2"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[3, 
                    Key["\!\(\*SubscriptBox[\(z\), \(2\)]\)"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2487,7 +2514,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["-2"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[3, 
                    Key["\!\(\*SubscriptBox[\(z\), \(3\)]\)"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2495,7 +2522,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["5"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[3, 
                    Key["\!\(\*SubscriptBox[\(z\), \(4\)]\)"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2503,7 +2530,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["4"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[3, 
                    Key["\!\(\*SubscriptBox[\(z\), \(5\)]\)"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2511,7 +2538,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[3, 
                    Key["\!\(\*SubscriptBox[\(z\), \(6\)]\)"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2519,7 +2546,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["3"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[3, 
                    Key["\!\(\*SubscriptBox[\(z\), \(7\)]\)"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2527,7 +2554,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["-6"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[3, 
                    Key["\!\(\*SubscriptBox[\(z\), \(8\)]\)"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2535,13 +2562,13 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["-1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[3, 
                    Key["m"]]], "Mouse"], ImageSize -> {{34, Full}, Automatic},
                  Alignment -> {Left, Baseline}], 
                Pane[
                 Annotation["2104.10324", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[3, 
                    Key["arXiv"]]], "Mouse"], 
                 ImageSize -> {{96.00000000000001, Full}, Automatic}, 
@@ -2549,7 +2576,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["-5"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[4, 
                    Key["x'"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2557,7 +2584,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["-8"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[4, 
                    Key["x''"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2565,7 +2592,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["-4"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[4, 
                    Key["\!\(\*SubscriptBox[\(z\), \(1\)]\)"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2573,7 +2600,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["-4"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[4, 
                    Key["\!\(\*SubscriptBox[\(z\), \(2\)]\)"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2581,7 +2608,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["8"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[4, 
                    Key["\!\(\*SubscriptBox[\(z\), \(3\)]\)"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2589,7 +2616,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[4, 
                    Key["\!\(\*SubscriptBox[\(z\), \(4\)]\)"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2597,7 +2624,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[4, 
                    Key["\!\(\*SubscriptBox[\(z\), \(5\)]\)"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2605,7 +2632,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[4, 
                    Key["\!\(\*SubscriptBox[\(z\), \(6\)]\)"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2613,7 +2640,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[4, 
                    Key["\!\(\*SubscriptBox[\(z\), \(7\)]\)"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2621,7 +2648,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[4, 
                    Key["\!\(\*SubscriptBox[\(z\), \(8\)]\)"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2629,13 +2656,13 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[4, 
                    Key["m"]]], "Mouse"], ImageSize -> {{34, Full}, Automatic},
                  Alignment -> {Left, Baseline}], 
                Pane[
                 Annotation["New", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[4, 
                    Key["arXiv"]]], "Mouse"], 
                 ImageSize -> {{96.00000000000001, Full}, Automatic}, 
@@ -2646,7 +2673,7 @@ Cell[BoxData[
                   StyleBox[
                   "xp", FontFamily -> "Courier", FontSize -> 13, 
                    ShowStringCharacters -> True]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[5, 
                    Key["x'"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2657,7 +2684,7 @@ Cell[BoxData[
                   StyleBox[
                   "xpp", FontFamily -> "Courier", FontSize -> 13, 
                    ShowStringCharacters -> True]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[5, 
                    Key["x''"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2668,7 +2695,7 @@ Cell[BoxData[
                   StyleBox[
                   "\[Nu]", FontFamily -> "Courier", FontSize -> 13, 
                    ShowStringCharacters -> True]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[5, 
                    Key["\!\(\*SubscriptBox[\(z\), \(1\)]\)"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2679,7 +2706,7 @@ Cell[BoxData[
                   StyleBox[
                   "\[Nu]", FontFamily -> "Courier", FontSize -> 13, 
                    ShowStringCharacters -> True]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[5, 
                    Key["\!\(\*SubscriptBox[\(z\), \(2\)]\)"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2690,7 +2717,7 @@ Cell[BoxData[
                   StyleBox[
                   "z3", FontFamily -> "Courier", FontSize -> 13, 
                    ShowStringCharacters -> True]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[5, 
                    Key["\!\(\*SubscriptBox[\(z\), \(3\)]\)"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2701,7 +2728,7 @@ Cell[BoxData[
                   StyleBox[
                   "z4", FontFamily -> "Courier", FontSize -> 13, 
                    ShowStringCharacters -> True]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[5, 
                    Key["\!\(\*SubscriptBox[\(z\), \(4\)]\)"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2709,7 +2736,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[5, 
                    Key["\!\(\*SubscriptBox[\(z\), \(5\)]\)"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2717,7 +2744,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[5, 
                    Key["\!\(\*SubscriptBox[\(z\), \(6\)]\)"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2725,7 +2752,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[5, 
                    Key["\!\(\*SubscriptBox[\(z\), \(7\)]\)"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2733,7 +2760,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[5, 
                    Key["\!\(\*SubscriptBox[\(z\), \(8\)]\)"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2744,13 +2771,13 @@ Cell[BoxData[
                   StyleBox[
                   "mm", FontFamily -> "Courier", FontSize -> 13, 
                    ShowStringCharacters -> True]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[5, 
                    Key["m"]]], "Mouse"], ImageSize -> {{60, Full}, Automatic},
                  Alignment -> {Left, Baseline}], 
                Pane[
                 Annotation["General", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[5, 
                    Key["arXiv"]]], "Mouse"], 
                 ImageSize -> {{96.00000000000001, Full}, Automatic}, 
@@ -2761,7 +2788,7 @@ Cell[BoxData[
                   StyleBox[
                   "xp", FontFamily -> "Courier", FontSize -> 13, 
                    ShowStringCharacters -> True]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[6, 
                    Key["x'"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2772,7 +2799,7 @@ Cell[BoxData[
                   StyleBox[
                   "xpp", FontFamily -> "Courier", FontSize -> 13, 
                    ShowStringCharacters -> True]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[6, 
                    Key["x''"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2783,7 +2810,7 @@ Cell[BoxData[
                   StyleBox[
                   "\[Nu]", FontFamily -> "Courier", FontSize -> 13, 
                    ShowStringCharacters -> True]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[6, 
                    Key["\!\(\*SubscriptBox[\(z\), \(1\)]\)"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2794,7 +2821,7 @@ Cell[BoxData[
                   StyleBox[
                   "\[Nu]", FontFamily -> "Courier", FontSize -> 13, 
                    ShowStringCharacters -> True]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[6, 
                    Key["\!\(\*SubscriptBox[\(z\), \(2\)]\)"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2805,7 +2832,7 @@ Cell[BoxData[
                   StyleBox[
                   "z3", FontFamily -> "Courier", FontSize -> 13, 
                    ShowStringCharacters -> True]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[6, 
                    Key["\!\(\*SubscriptBox[\(z\), \(3\)]\)"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2816,7 +2843,7 @@ Cell[BoxData[
                   StyleBox[
                   "z4", FontFamily -> "Courier", FontSize -> 13, 
                    ShowStringCharacters -> True]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[6, 
                    Key["\!\(\*SubscriptBox[\(z\), \(4\)]\)"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2827,7 +2854,7 @@ Cell[BoxData[
                   StyleBox[
                   "z5", FontFamily -> "Courier", FontSize -> 13, 
                    ShowStringCharacters -> True]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[6, 
                    Key["\!\(\*SubscriptBox[\(z\), \(5\)]\)"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2838,7 +2865,7 @@ Cell[BoxData[
                   StyleBox[
                   "z6", FontFamily -> "Courier", FontSize -> 13, 
                    ShowStringCharacters -> True]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[6, 
                    Key["\!\(\*SubscriptBox[\(z\), \(6\)]\)"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2849,7 +2876,7 @@ Cell[BoxData[
                   StyleBox[
                   "z7", FontFamily -> "Courier", FontSize -> 13, 
                    ShowStringCharacters -> True]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[6, 
                    Key["\!\(\*SubscriptBox[\(z\), \(7\)]\)"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2860,7 +2887,7 @@ Cell[BoxData[
                   StyleBox[
                   "z8", FontFamily -> "Courier", FontSize -> 13, 
                    ShowStringCharacters -> True]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[6, 
                    Key["\!\(\*SubscriptBox[\(z\), \(8\)]\)"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2871,13 +2898,13 @@ Cell[BoxData[
                   StyleBox[
                   "mm", FontFamily -> "Courier", FontSize -> 13, 
                    ShowStringCharacters -> True]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[6, 
                    Key["m"]]], "Mouse"], ImageSize -> {{60, Full}, Automatic},
                  Alignment -> {Left, Baseline}], 
                Pane[
                 Annotation["General II", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[6, 
                    Key["arXiv"]]], "Mouse"], 
                 ImageSize -> {{96.00000000000001, Full}, Automatic}, 
@@ -2885,7 +2912,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["8"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[7, 
                    Key["x'"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2893,7 +2920,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["5"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[7, 
                    Key["x''"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2901,7 +2928,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["-4"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[7, 
                    Key["\!\(\*SubscriptBox[\(z\), \(1\)]\)"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2909,7 +2936,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["-4"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[7, 
                    Key["\!\(\*SubscriptBox[\(z\), \(2\)]\)"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2917,7 +2944,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["8"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[7, 
                    Key["\!\(\*SubscriptBox[\(z\), \(3\)]\)"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2925,7 +2952,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[7, 
                    Key["\!\(\*SubscriptBox[\(z\), \(4\)]\)"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2933,7 +2960,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[7, 
                    Key["\!\(\*SubscriptBox[\(z\), \(5\)]\)"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2941,7 +2968,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[7, 
                    Key["\!\(\*SubscriptBox[\(z\), \(6\)]\)"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2949,7 +2976,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[7, 
                    Key["\!\(\*SubscriptBox[\(z\), \(7\)]\)"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2957,7 +2984,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[7, 
                    Key["\!\(\*SubscriptBox[\(z\), \(8\)]\)"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2965,14 +2992,108 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[7, 
                    Key["m"]]], "Mouse"], ImageSize -> {{34, Full}, Automatic},
                  Alignment -> {Left, Baseline}], 
                Pane[
                 Annotation["New II", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
                   GeneralUtilities`Slice[7, 
+                   Key["arXiv"]]], "Mouse"], 
+                ImageSize -> {{96.00000000000001, Full}, Automatic}, 
+                Alignment -> {Left, Baseline}]}, {
+               Pane[
+                Annotation[
+                 RawBoxes["-5"], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
+                  GeneralUtilities`Slice[8, 
+                   Key["x'"]]], "Mouse"], 
+                ImageSize -> {{34, Full}, Automatic}, 
+                Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation[
+                 RawBoxes["-8"], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
+                  GeneralUtilities`Slice[8, 
+                   Key["x''"]]], "Mouse"], 
+                ImageSize -> {{34, Full}, Automatic}, 
+                Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation[
+                 RawBoxes["-4"], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
+                  GeneralUtilities`Slice[8, 
+                   Key["\!\(\*SubscriptBox[\(z\), \(1\)]\)"]]], "Mouse"], 
+                ImageSize -> {{34, Full}, Automatic}, 
+                Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation[
+                 RawBoxes["-4"], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
+                  GeneralUtilities`Slice[8, 
+                   Key["\!\(\*SubscriptBox[\(z\), \(2\)]\)"]]], "Mouse"], 
+                ImageSize -> {{34, Full}, Automatic}, 
+                Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation[
+                 RawBoxes["8"], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
+                  GeneralUtilities`Slice[8, 
+                   Key["\!\(\*SubscriptBox[\(z\), \(3\)]\)"]]], "Mouse"], 
+                ImageSize -> {{34, Full}, Automatic}, 
+                Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation[
+                 RawBoxes["0"], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
+                  GeneralUtilities`Slice[8, 
+                   Key["\!\(\*SubscriptBox[\(z\), \(4\)]\)"]]], "Mouse"], 
+                ImageSize -> {{34, Full}, Automatic}, 
+                Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation[
+                 RawBoxes["0"], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
+                  GeneralUtilities`Slice[8, 
+                   Key["\!\(\*SubscriptBox[\(z\), \(5\)]\)"]]], "Mouse"], 
+                ImageSize -> {{34, Full}, Automatic}, 
+                Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation[
+                 RawBoxes["0"], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
+                  GeneralUtilities`Slice[8, 
+                   Key["\!\(\*SubscriptBox[\(z\), \(6\)]\)"]]], "Mouse"], 
+                ImageSize -> {{34, Full}, Automatic}, 
+                Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation[
+                 RawBoxes["0"], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
+                  GeneralUtilities`Slice[8, 
+                   Key["\!\(\*SubscriptBox[\(z\), \(7\)]\)"]]], "Mouse"], 
+                ImageSize -> {{34, Full}, Automatic}, 
+                Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation[
+                 RawBoxes["0"], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
+                  GeneralUtilities`Slice[8, 
+                   Key["\!\(\*SubscriptBox[\(z\), \(8\)]\)"]]], "Mouse"], 
+                ImageSize -> {{34, Full}, Automatic}, 
+                Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation[
+                 RawBoxes["1"], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
+                  GeneralUtilities`Slice[8, 
+                   Key["m"]]], "Mouse"], ImageSize -> {{34, Full}, Automatic},
+                 Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation["New III", 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
+                  GeneralUtilities`Slice[8, 
                    Key["arXiv"]]], "Mouse"], 
                 ImageSize -> {{96.00000000000001, Full}, Automatic}, 
                 Alignment -> {Left, Baseline}]}}, BaseStyle -> {ContextMenu -> {
@@ -3021,7 +3142,7 @@ Cell[BoxData[
                 TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                  TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                  TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-                 TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1994930982][
+                 TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1205830391][
                 TypeSystem`NestedGrid`PackagePrivate`tmpData$]]; If[
                Not[
                 FailureQ[TypeSystem`NestedGrid`PackagePrivate`tmpGrid$]], 
@@ -3056,14 +3177,14 @@ Cell[BoxData[
           TypeSystem`NestedGrid`PackagePrivate`$state$$, 
            TypeSystem`NestedGrid`PackagePrivate`$path$$, 
            TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-           TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1994930982]]], 
+           TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1205830391]]], 
         TrackedSymbols :> {TypeSystem`NestedGrid`PackagePrivate`$path$$}], 
       TypeSystem`NestedGrid`PackagePrivate`$bottomBar$$ = Framed[
         Dynamic[
          Replace[
           MouseAnnotation[Null], {
-          TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][Null] -> 
-           "", TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1994930982][
+          TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][Null] -> 
+           "", TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1205830391][
              Pattern[TypeSystem`NestedGrid`PackagePrivate`path, 
               Blank[]]] :> (
             TypeSystem`NestedGrid`PackagePrivate`$lastPath = 
@@ -3111,7 +3232,7 @@ Cell[BoxData[
    3.832445592923691*^9}, 3.83244572977969*^9, {3.832445766160684*^9, 
    3.832445784641735*^9}, 3.832445927853426*^9, 3.8324469357058163`*^9, 
    3.8324539684082327`*^9, {3.832455913588276*^9, 3.8324559173007183`*^9}, 
-   3.832456000998163*^9}]
+   3.832456000998163*^9, {3.832802232961584*^9, 3.832802246767696*^9}}]
 }, Open  ]]
 }, Open  ]],
 
@@ -4342,7 +4463,7 @@ x\[CloseCurlyQuote]\[CloseCurlyQuote]=-3*1-5=-8\nFor ",
   3.8324536518988047`*^9}, {3.832453690434957*^9, 3.832453731356567*^9}, {
   3.832453803948172*^9, 3.832453851027869*^9}, {3.8324538878357162`*^9, 
   3.832453903800003*^9}}]
-}, Open  ]],
+}, Closed]],
 
 Cell[CellGroupData[{
 
@@ -4470,6 +4591,536 @@ Cell[BoxData[""], "Input",
 
 Cell[BoxData[" "], "Input",
  CellChangeTimes->{3.8324552363973494`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Solution 7", "Section",
+ CellChangeTimes->{{3.832423103929524*^9, 3.8324231087692003`*^9}, {
+  3.832801843416932*^9, 3.832801846074194*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"sol7", "=", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"xp", "\[Rule]", 
+     RowBox[{"ds", "[", 
+      RowBox[{"7", ",", "\"\<x'\>\""}], "]"}]}], ",", 
+    RowBox[{"xpp", "\[Rule]", 
+     RowBox[{"ds", "[", 
+      RowBox[{"7", ",", "\"\<x''\>\""}], "]"}]}], ",", 
+    RowBox[{
+     SubscriptBox["z", "1"], "\[Rule]", 
+     RowBox[{"ds", "[", 
+      RowBox[{"7", ",", "\"\<\!\(\*SubscriptBox[\(z\), \(1\)]\)\>\""}], 
+      "]"}]}], ",", 
+    RowBox[{
+     SubscriptBox["z", "2"], "\[Rule]", 
+     RowBox[{"ds", "[", 
+      RowBox[{"7", ",", "\"\<\!\(\*SubscriptBox[\(z\), \(2\)]\)\>\""}], 
+      "]"}]}], ",", 
+    RowBox[{
+     SubscriptBox["z", "3"], "\[Rule]", 
+     RowBox[{"ds", "[", 
+      RowBox[{"7", ",", "\"\<\!\(\*SubscriptBox[\(z\), \(3\)]\)\>\""}], 
+      "]"}]}], ",", 
+    RowBox[{
+     SubscriptBox["z", "4"], "\[Rule]", 
+     RowBox[{"ds", "[", 
+      RowBox[{"7", ",", "\"\<\!\(\*SubscriptBox[\(z\), \(4\)]\)\>\""}], 
+      "]"}]}], ",", 
+    RowBox[{
+     SubscriptBox["z", "5"], "\[Rule]", 
+     RowBox[{"ds", "[", 
+      RowBox[{"7", ",", "\"\<\!\(\*SubscriptBox[\(z\), \(5\)]\)\>\""}], 
+      "]"}]}], ",", 
+    RowBox[{
+     SubscriptBox["z", "6"], "\[Rule]", 
+     RowBox[{"ds", "[", 
+      RowBox[{"7", ",", "\"\<\!\(\*SubscriptBox[\(z\), \(6\)]\)\>\""}], 
+      "]"}]}], ",", 
+    RowBox[{
+     SubscriptBox["z", "7"], "\[Rule]", 
+     RowBox[{"ds", "[", 
+      RowBox[{"7", ",", "\"\<\!\(\*SubscriptBox[\(z\), \(7\)]\)\>\""}], 
+      "]"}]}], ",", 
+    RowBox[{
+     SubscriptBox["z", "8"], "\[Rule]", 
+     RowBox[{"ds", "[", 
+      RowBox[{"7", ",", "\"\<\!\(\*SubscriptBox[\(z\), \(8\)]\)\>\""}], 
+      "]"}]}]}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.832801856690209*^9, 3.832801885671811*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"xp", "\[Rule]", "8"}], ",", 
+   RowBox[{"xpp", "\[Rule]", "5"}], ",", 
+   RowBox[{
+    SubscriptBox["z", "1"], "\[Rule]", 
+    RowBox[{"-", "4"}]}], ",", 
+   RowBox[{
+    SubscriptBox["z", "2"], "\[Rule]", 
+    RowBox[{"-", "4"}]}], ",", 
+   RowBox[{
+    SubscriptBox["z", "3"], "\[Rule]", "8"}], ",", 
+   RowBox[{
+    SubscriptBox["z", "4"], "\[Rule]", "0"}], ",", 
+   RowBox[{
+    SubscriptBox["z", "5"], "\[Rule]", "0"}], ",", 
+   RowBox[{
+    SubscriptBox["z", "6"], "\[Rule]", "0"}], ",", 
+   RowBox[{
+    SubscriptBox["z", "7"], "\[Rule]", "0"}], ",", 
+   RowBox[{
+    SubscriptBox["z", "8"], "\[Rule]", "0"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.832433190634684*^9, 3.8328018947447023`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"XSF", "/.", "sol7"}]], "Input",
+ CellChangeTimes->{{3.8322797525409107`*^9, 3.832279756652502*^9}, {
+  3.832279969340014*^9, 3.832279969363142*^9}, {3.8322832336682262`*^9, 
+  3.8322832337639112`*^9}, {3.832804219090397*^9, 3.8328042252514467`*^9}}],
+
+Cell[BoxData["0"], "Output",
+ CellChangeTimes->{
+  3.832279757162458*^9, 3.832279970027794*^9, 3.8322803144045753`*^9, 
+   3.832280358179667*^9, 3.832283234301137*^9, 3.832433115573895*^9, {
+   3.832433166472247*^9, 3.832433192282084*^9}, {3.8328042200829*^9, 
+   3.832804225929647*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"Z", "=", 
+   RowBox[{"Take", "[", 
+    RowBox[{
+     RowBox[{"Values", "[", 
+      RowBox[{
+       RowBox[{"ds", "[", "7", "]"}], "//", "Normal"}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"1", ",", 
+       RowBox[{"-", "2"}]}], "}"}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"Z", "[", 
+    RowBox[{"[", "1", "]"}], "]"}], "=", 
+   RowBox[{"-", 
+    RowBox[{"Z", "[", 
+     RowBox[{"[", "1", "]"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"m", "=", 
+   RowBox[{"Z", "[", 
+    RowBox[{"[", 
+     RowBox[{"-", "1"}], "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Z", "=", 
+  RowBox[{"Catenate", "[", 
+   RowBox[{"{", 
+    RowBox[{"Z", ",", 
+     RowBox[{"{", 
+      RowBox[{"m", ",", "m"}], "}"}]}], "}"}], "]"}]}]}], "Input",
+ CellChangeTimes->{{3.832439173427096*^9, 3.832439173594556*^9}, {
+  3.832801906495985*^9, 3.8328019068687*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"-", "8"}], ",", "5", ",", 
+   RowBox[{"-", "4"}], ",", 
+   RowBox[{"-", "4"}], ",", "8", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+   "0", ",", "1", ",", "1", ",", "1"}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.832439174621965*^9, {3.832801902123829*^9, 3.832801908647571*^9}}]
+}, Open  ]],
+
+Cell[TextData[Cell[BoxData[
+ FormBox[
+  RowBox[{"qq", "=", 
+   RowBox[{
+    RowBox[{
+     SuperscriptBox[
+      SubscriptBox["\[CapitalSigma]", 
+       RowBox[{"i", "=", "1"}]], "8"], 
+     SubscriptBox["z", "i"]}], "\[Rule]", 
+    SubscriptBox["z", "18"]}]}], TraditionalForm]]]], "Text",
+ CellChangeTimes->{{3.832373973507401*^9, 3.832374021803646*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  SubscriptBox["z", "18"], "=", 
+  RowBox[{"Take", "[", 
+   RowBox[{"Z", ",", 
+    RowBox[{"{", 
+     RowBox[{"3", ",", 
+      RowBox[{"-", "4"}]}], "}"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.832373792506064*^9, 3.832373836779853*^9}, {
+  3.832373884765792*^9, 3.8323738882917423`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"-", "4"}], ",", 
+   RowBox[{"-", "4"}], ",", "8", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+   "0"}], "}"}]], "Output",
+ CellChangeTimes->{{3.832373812125022*^9, 3.832373837480645*^9}, 
+   3.832373892628216*^9, 3.832433196795627*^9, 3.83280192763402*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Total", "[", 
+  SubscriptBox["z", "18"], "]"}]], "Input",
+ CellChangeTimes->{{3.832373895350947*^9, 3.832373905539879*^9}}],
+
+Cell[BoxData["0"], "Output",
+ CellChangeTimes->{3.832373906104396*^9, 3.832433198287922*^9, 
+  3.8328019307080097`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Total", "[", 
+  SuperscriptBox[
+   SubscriptBox["z", "18"], "3"], "]"}]], "Input",
+ CellChangeTimes->{{3.832374475183811*^9, 3.832374485073565*^9}}],
+
+Cell[BoxData["384"], "Output",
+ CellChangeTimes->{3.832374485592078*^9, 3.8324331995638723`*^9, 
+  3.8328019320325937`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Total", "[", "Z", "]"}]], "Input",
+ CellChangeTimes->{{3.8323456512749987`*^9, 3.8323456565279627`*^9}}],
+
+Cell[BoxData["0"], "Output",
+ CellChangeTimes->{3.832345657201805*^9, 3.8324332009570017`*^9, 
+  3.832801937027377*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Total", "[", 
+  SuperscriptBox["Z", "3"], "]"}]], "Input",
+ CellChangeTimes->{{3.832345658669943*^9, 3.832345667733426*^9}}],
+
+Cell[BoxData["0"], "Output",
+ CellChangeTimes->{3.832345668392565*^9, 3.832433202070716*^9, 
+  3.832801938462944*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"lll", "=", 
+  RowBox[{
+   RowBox[{"dsql", "[", 
+    RowBox[{"1", ",", "\"\<l\>\""}], "]"}], "/.", "sol7"}]}]], "Input",
+ CellChangeTimes->{{3.832433230725659*^9, 3.8324332580492*^9}, {
+  3.832803193821332*^9, 3.832803194236137*^9}}],
+
+Cell[BoxData["1"], "Output",
+ CellChangeTimes->{{3.832433242068921*^9, 3.832433258805304*^9}, 
+   3.832801939698517*^9, 3.832803194912108*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"uuuu", "=", 
+  RowBox[{
+   RowBox[{"dsql", "[", 
+    RowBox[{"1", ",", "\"\<q,u,d\>\""}], "]"}], "/.", "sol7"}]}]], "Input",
+ CellChangeTimes->{{3.8324332711448603`*^9, 3.8324333133296013`*^9}, {
+  3.832803197259605*^9, 3.83280319772397*^9}}],
+
+Cell[BoxData["0"], "Output",
+ CellChangeTimes->{3.832433273685802*^9, 3.832433314486409*^9, 
+  3.8328019414077578`*^9, 3.8328031984218616`*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Solution 8", "Section",
+ CellChangeTimes->{{3.832423103929524*^9, 3.8324231087692003`*^9}, {
+  3.832801843416932*^9, 3.832801846074194*^9}, {3.832803134383239*^9, 
+  3.83280313479919*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"sol8", "=", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"xp", "\[Rule]", 
+     RowBox[{"ds", "[", 
+      RowBox[{"8", ",", "\"\<x'\>\""}], "]"}]}], ",", 
+    RowBox[{"xpp", "\[Rule]", 
+     RowBox[{"ds", "[", 
+      RowBox[{"8", ",", "\"\<x''\>\""}], "]"}]}], ",", 
+    RowBox[{
+     SubscriptBox["z", "1"], "\[Rule]", 
+     RowBox[{"ds", "[", 
+      RowBox[{"8", ",", "\"\<\!\(\*SubscriptBox[\(z\), \(1\)]\)\>\""}], 
+      "]"}]}], ",", 
+    RowBox[{
+     SubscriptBox["z", "2"], "\[Rule]", 
+     RowBox[{"ds", "[", 
+      RowBox[{"8", ",", "\"\<\!\(\*SubscriptBox[\(z\), \(2\)]\)\>\""}], 
+      "]"}]}], ",", 
+    RowBox[{
+     SubscriptBox["z", "3"], "\[Rule]", 
+     RowBox[{"ds", "[", 
+      RowBox[{"8", ",", "\"\<\!\(\*SubscriptBox[\(z\), \(3\)]\)\>\""}], 
+      "]"}]}], ",", 
+    RowBox[{
+     SubscriptBox["z", "4"], "\[Rule]", 
+     RowBox[{"ds", "[", 
+      RowBox[{"8", ",", "\"\<\!\(\*SubscriptBox[\(z\), \(4\)]\)\>\""}], 
+      "]"}]}], ",", 
+    RowBox[{
+     SubscriptBox["z", "5"], "\[Rule]", 
+     RowBox[{"ds", "[", 
+      RowBox[{"8", ",", "\"\<\!\(\*SubscriptBox[\(z\), \(5\)]\)\>\""}], 
+      "]"}]}], ",", 
+    RowBox[{
+     SubscriptBox["z", "6"], "\[Rule]", 
+     RowBox[{"ds", "[", 
+      RowBox[{"8", ",", "\"\<\!\(\*SubscriptBox[\(z\), \(6\)]\)\>\""}], 
+      "]"}]}], ",", 
+    RowBox[{
+     SubscriptBox["z", "7"], "\[Rule]", 
+     RowBox[{"ds", "[", 
+      RowBox[{"8", ",", "\"\<\!\(\*SubscriptBox[\(z\), \(7\)]\)\>\""}], 
+      "]"}]}], ",", 
+    RowBox[{
+     SubscriptBox["z", "8"], "\[Rule]", 
+     RowBox[{"ds", "[", 
+      RowBox[{"8", ",", "\"\<\!\(\*SubscriptBox[\(z\), \(8\)]\)\>\""}], 
+      "]"}]}]}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.832801856690209*^9, 3.832801885671811*^9}, {
+  3.832804181199213*^9, 3.832804192729972*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"xp", "\[Rule]", 
+    RowBox[{"-", "5"}]}], ",", 
+   RowBox[{"xpp", "\[Rule]", 
+    RowBox[{"-", "8"}]}], ",", 
+   RowBox[{
+    SubscriptBox["z", "1"], "\[Rule]", 
+    RowBox[{"-", "4"}]}], ",", 
+   RowBox[{
+    SubscriptBox["z", "2"], "\[Rule]", 
+    RowBox[{"-", "4"}]}], ",", 
+   RowBox[{
+    SubscriptBox["z", "3"], "\[Rule]", "8"}], ",", 
+   RowBox[{
+    SubscriptBox["z", "4"], "\[Rule]", "0"}], ",", 
+   RowBox[{
+    SubscriptBox["z", "5"], "\[Rule]", "0"}], ",", 
+   RowBox[{
+    SubscriptBox["z", "6"], "\[Rule]", "0"}], ",", 
+   RowBox[{
+    SubscriptBox["z", "7"], "\[Rule]", "0"}], ",", 
+   RowBox[{
+    SubscriptBox["z", "8"], "\[Rule]", "0"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.832433190634684*^9, 3.8328018947447023`*^9, 
+  3.8328041936567297`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"XSF", "/.", "sol8"}]], "Input",
+ CellChangeTimes->{{3.8322797525409107`*^9, 3.832279756652502*^9}, {
+  3.832279969340014*^9, 3.832279969363142*^9}, {3.8322832336682262`*^9, 
+  3.8322832337639112`*^9}, {3.832804200201185*^9, 3.832804200601287*^9}}],
+
+Cell[BoxData["0"], "Output",
+ CellChangeTimes->{
+  3.832279757162458*^9, 3.832279970027794*^9, 3.8322803144045753`*^9, 
+   3.832280358179667*^9, 3.832283234301137*^9, 3.832433115573895*^9, {
+   3.832433166472247*^9, 3.832433192282084*^9}, 3.8328042012903433`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"Z", "=", 
+   RowBox[{"Take", "[", 
+    RowBox[{
+     RowBox[{"Values", "[", 
+      RowBox[{
+       RowBox[{"ds", "[", "7", "]"}], "//", "Normal"}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"1", ",", 
+       RowBox[{"-", "2"}]}], "}"}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"Z", "[", 
+    RowBox[{"[", "1", "]"}], "]"}], "=", 
+   RowBox[{"-", 
+    RowBox[{"Z", "[", 
+     RowBox[{"[", "1", "]"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"m", "=", 
+   RowBox[{"Z", "[", 
+    RowBox[{"[", 
+     RowBox[{"-", "1"}], "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Z", "=", 
+  RowBox[{"Catenate", "[", 
+   RowBox[{"{", 
+    RowBox[{"Z", ",", 
+     RowBox[{"{", 
+      RowBox[{"m", ",", "m"}], "}"}]}], "}"}], "]"}]}]}], "Input",
+ CellChangeTimes->{{3.832439173427096*^9, 3.832439173594556*^9}, {
+  3.832801906495985*^9, 3.8328019068687*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"-", "8"}], ",", "5", ",", 
+   RowBox[{"-", "4"}], ",", 
+   RowBox[{"-", "4"}], ",", "8", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+   "0", ",", "1", ",", "1", ",", "1"}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.832439174621965*^9, {3.832801902123829*^9, 3.832801908647571*^9}, 
+   3.832803160403399*^9}]
+}, Open  ]],
+
+Cell[TextData[Cell[BoxData[
+ FormBox[
+  RowBox[{"qq", "=", 
+   RowBox[{
+    RowBox[{
+     SuperscriptBox[
+      SubscriptBox["\[CapitalSigma]", 
+       RowBox[{"i", "=", "1"}]], "8"], 
+     SubscriptBox["z", "i"]}], "\[Rule]", 
+    SubscriptBox["z", "18"]}]}], TraditionalForm]]]], "Text",
+ CellChangeTimes->{{3.832373973507401*^9, 3.832374021803646*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  SubscriptBox["z", "18"], "=", 
+  RowBox[{"Take", "[", 
+   RowBox[{"Z", ",", 
+    RowBox[{"{", 
+     RowBox[{"3", ",", 
+      RowBox[{"-", "4"}]}], "}"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.832373792506064*^9, 3.832373836779853*^9}, {
+  3.832373884765792*^9, 3.8323738882917423`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"-", "4"}], ",", 
+   RowBox[{"-", "4"}], ",", "8", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+   "0"}], "}"}]], "Output",
+ CellChangeTimes->{{3.832373812125022*^9, 3.832373837480645*^9}, 
+   3.832373892628216*^9, 3.832433196795627*^9, 3.83280192763402*^9, 
+   3.832803164010601*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Total", "[", 
+  SubscriptBox["z", "18"], "]"}]], "Input",
+ CellChangeTimes->{{3.832373895350947*^9, 3.832373905539879*^9}}],
+
+Cell[BoxData["0"], "Output",
+ CellChangeTimes->{3.832373906104396*^9, 3.832433198287922*^9, 
+  3.8328019307080097`*^9, 3.832803167405382*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Total", "[", 
+  SuperscriptBox[
+   SubscriptBox["z", "18"], "3"], "]"}]], "Input",
+ CellChangeTimes->{{3.832374475183811*^9, 3.832374485073565*^9}}],
+
+Cell[BoxData["384"], "Output",
+ CellChangeTimes->{3.832374485592078*^9, 3.8324331995638723`*^9, 
+  3.8328019320325937`*^9, 3.832803168767806*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Total", "[", "Z", "]"}]], "Input",
+ CellChangeTimes->{{3.8323456512749987`*^9, 3.8323456565279627`*^9}}],
+
+Cell[BoxData["0"], "Output",
+ CellChangeTimes->{3.832345657201805*^9, 3.8324332009570017`*^9, 
+  3.832801937027377*^9, 3.832803170346849*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Total", "[", 
+  SuperscriptBox["Z", "3"], "]"}]], "Input",
+ CellChangeTimes->{{3.832345658669943*^9, 3.832345667733426*^9}}],
+
+Cell[BoxData["0"], "Output",
+ CellChangeTimes->{3.832345668392565*^9, 3.832433202070716*^9, 
+  3.832801938462944*^9, 3.8328031714147673`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"lll", "=", 
+  RowBox[{
+   RowBox[{"dsql", "[", 
+    RowBox[{"1", ",", "\"\<l\>\""}], "]"}], "/.", "sol8"}]}]], "Input",
+ CellChangeTimes->{{3.832433230725659*^9, 3.8324332580492*^9}, {
+  3.832803176878809*^9, 3.832803184242527*^9}, {3.8328042048682137`*^9, 
+  3.832804205240048*^9}}],
+
+Cell[BoxData["1"], "Output",
+ CellChangeTimes->{{3.832433242068921*^9, 3.832433258805304*^9}, 
+   3.832801939698517*^9, {3.832803172597067*^9, 3.832803184991364*^9}, 
+   3.8328042058217916`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"uuuu", "=", 
+  RowBox[{
+   RowBox[{"dsql", "[", 
+    RowBox[{"1", ",", "\"\<q,u,d\>\""}], "]"}], "/.", "sol8"}]}]], "Input",
+ CellChangeTimes->{{3.8324332711448603`*^9, 3.8324333133296013`*^9}, {
+  3.8328042082482233`*^9, 3.832804208701661*^9}}],
+
+Cell[BoxData["0"], "Output",
+ CellChangeTimes->{3.832433273685802*^9, 3.832433314486409*^9, 
+  3.8328019414077578`*^9, 3.832804209285941*^9}]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 },
@@ -4556,198 +5207,286 @@ Cell[41533, 1310, 498, 12, 40, "Input"],
 Cell[42034, 1324, 13290, 252, 120, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[55361, 1581, 9370, 204, 236, "Input"],
-Cell[64734, 1787, 65958, 1326, 339, "Output"]
+Cell[55361, 1581, 10562, 231, 264, "Input"],
+Cell[65926, 1814, 70493, 1420, 338, "Output"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[130741, 3119, 177, 2, 82, "Section"],
+Cell[136468, 3240, 177, 2, 82, "Section"],
 Cell[CellGroupData[{
-Cell[130943, 3125, 1901, 52, 69, "Input"],
-Cell[132847, 3179, 915, 27, 41, "Output"]
+Cell[136670, 3246, 1901, 52, 69, "Input"],
+Cell[138574, 3300, 915, 27, 41, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[133799, 3211, 1173, 34, 147, "Input"],
-Cell[134975, 3247, 524, 13, 40, "Output"]
+Cell[139526, 3332, 1173, 34, 147, "Input"],
+Cell[140702, 3368, 524, 13, 40, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[135536, 3265, 124, 2, 40, "Input"],
-Cell[135663, 3269, 96, 1, 38, "Output"]
+Cell[141263, 3386, 124, 2, 40, "Input"],
+Cell[141390, 3390, 96, 1, 38, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[135796, 3275, 148, 3, 52, "Input"],
-Cell[135947, 3280, 92, 1, 38, "Output"]
+Cell[141523, 3396, 148, 3, 52, "Input"],
+Cell[141674, 3401, 92, 1, 38, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[136076, 3286, 295, 8, 40, "Input"],
-Cell[136374, 3296, 259, 6, 40, "Output"]
+Cell[141803, 3407, 295, 8, 40, "Input"],
+Cell[142101, 3417, 259, 6, 40, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[136670, 3307, 127, 2, 40, "Input"],
-Cell[136800, 3311, 92, 1, 38, "Output"]
+Cell[142397, 3428, 127, 2, 40, "Input"],
+Cell[142527, 3432, 92, 1, 38, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[136929, 3317, 573, 15, 41, "Input"],
-Cell[137505, 3334, 164, 4, 38, "Output"]
+Cell[142656, 3438, 573, 15, 41, "Input"],
+Cell[143232, 3455, 164, 4, 38, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[137706, 3343, 225, 5, 40, "Input"],
-Cell[137934, 3350, 119, 2, 38, "Output"]
+Cell[143433, 3464, 225, 5, 40, "Input"],
+Cell[143661, 3471, 119, 2, 38, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[138090, 3357, 95, 1, 40, "Input"],
-Cell[138188, 3360, 225, 8, 72, "Output"]
+Cell[143817, 3478, 95, 1, 40, "Input"],
+Cell[143915, 3481, 225, 8, 72, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[138450, 3373, 121, 2, 38, "Input"],
-Cell[138574, 3377, 93, 1, 38, "Output"]
+Cell[144177, 3494, 121, 2, 38, "Input"],
+Cell[144301, 3498, 93, 1, 38, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[138704, 3383, 196, 3, 38, "Input"],
-Cell[138903, 3388, 164, 4, 38, "Output"]
+Cell[144431, 3504, 196, 3, 38, "Input"],
+Cell[144630, 3509, 164, 4, 38, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[139104, 3397, 220, 4, 40, "Input"],
-Cell[139327, 3403, 164, 2, 38, "Output"]
+Cell[144831, 3518, 220, 4, 40, "Input"],
+Cell[145054, 3524, 164, 2, 38, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[139528, 3410, 1802, 51, 69, "Input"],
-Cell[141333, 3463, 775, 23, 41, "Output"]
-}, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[142157, 3492, 97, 1, 64, "Section"],
-Cell[CellGroupData[{
-Cell[142279, 3497, 1685, 49, 69, "Input"],
-Cell[143967, 3548, 790, 26, 41, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[144794, 3579, 225, 4, 38, "Input"],
-Cell[145022, 3585, 239, 4, 38, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[145298, 3594, 898, 29, 121, "Input"],
-Cell[146199, 3625, 358, 10, 40, "Output"]
-}, Open  ]],
-Cell[146572, 3638, 143, 1, 41, "Text"],
-Cell[146718, 3641, 387, 11, 43, "Text"],
-Cell[CellGroupData[{
-Cell[147130, 3656, 317, 9, 41, "Input"],
-Cell[147450, 3667, 323, 8, 40, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[147810, 3680, 147, 3, 41, "Input"],
-Cell[147960, 3685, 92, 1, 38, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[148089, 3691, 172, 4, 52, "Input"],
-Cell[148264, 3697, 112, 2, 38, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[148413, 3704, 128, 2, 40, "Input"],
-Cell[148544, 3708, 94, 1, 38, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[148675, 3714, 148, 3, 52, "Input"],
-Cell[148826, 3719, 92, 1, 38, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[148955, 3725, 207, 5, 40, "Input"],
-Cell[149165, 3732, 111, 2, 38, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[149313, 3739, 218, 5, 40, "Input"],
-Cell[149534, 3746, 92, 1, 38, "Output"]
+Cell[145255, 3531, 1802, 51, 69, "Input"],
+Cell[147060, 3584, 775, 23, 41, "Output"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[149675, 3753, 121, 2, 64, "Section"],
+Cell[147884, 3613, 97, 1, 64, "Section"],
 Cell[CellGroupData[{
-Cell[149821, 3759, 1804, 51, 69, "Input"],
-Cell[151628, 3812, 770, 25, 41, "Output"]
+Cell[148006, 3618, 1685, 49, 69, "Input"],
+Cell[149694, 3669, 790, 26, 41, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[152435, 3842, 159, 3, 40, "Input"],
-Cell[152597, 3847, 147, 3, 38, "Output"]
+Cell[150521, 3700, 225, 4, 38, "Input"],
+Cell[150749, 3706, 239, 4, 38, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[152781, 3855, 947, 30, 121, "Input"],
-Cell[153731, 3887, 352, 8, 40, "Output"]
+Cell[151025, 3715, 898, 29, 121, "Input"],
+Cell[151926, 3746, 358, 10, 40, "Output"]
+}, Open  ]],
+Cell[152299, 3759, 143, 1, 41, "Text"],
+Cell[152445, 3762, 387, 11, 43, "Text"],
+Cell[CellGroupData[{
+Cell[152857, 3777, 317, 9, 41, "Input"],
+Cell[153177, 3788, 323, 8, 40, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[154120, 3900, 368, 10, 41, "Input"],
-Cell[154491, 3912, 287, 7, 40, "Output"]
+Cell[153537, 3801, 147, 3, 41, "Input"],
+Cell[153687, 3806, 92, 1, 38, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[154815, 3924, 147, 3, 41, "Input"],
-Cell[154965, 3929, 119, 2, 38, "Output"]
+Cell[153816, 3812, 172, 4, 52, "Input"],
+Cell[153991, 3818, 112, 2, 38, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[155121, 3936, 172, 4, 52, "Input"],
-Cell[155296, 3942, 121, 2, 38, "Output"]
+Cell[154140, 3825, 128, 2, 40, "Input"],
+Cell[154271, 3829, 94, 1, 38, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[155454, 3949, 128, 2, 40, "Input"],
-Cell[155585, 3953, 121, 2, 38, "Output"]
+Cell[154402, 3835, 148, 3, 52, "Input"],
+Cell[154553, 3840, 92, 1, 38, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[155743, 3960, 148, 3, 52, "Input"],
-Cell[155894, 3965, 117, 2, 38, "Output"]
+Cell[154682, 3846, 207, 5, 40, "Input"],
+Cell[154892, 3853, 111, 2, 38, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[156048, 3972, 207, 5, 40, "Input"],
-Cell[156258, 3979, 137, 3, 38, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[156432, 3987, 218, 5, 40, "Input"],
-Cell[156653, 3994, 117, 2, 38, "Output"]
+Cell[155040, 3860, 218, 5, 40, "Input"],
+Cell[155261, 3867, 92, 1, 38, "Output"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[156819, 4002, 228, 3, 64, "Section"],
+Cell[155402, 3874, 121, 2, 64, "Section"],
 Cell[CellGroupData[{
-Cell[157072, 4009, 1954, 53, 69, "Input"],
-Cell[159029, 4064, 833, 23, 41, "Output"]
+Cell[155548, 3880, 1804, 51, 69, "Input"],
+Cell[157355, 3933, 770, 25, 41, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[159899, 4092, 1047, 31, 121, "Input"],
-Cell[160949, 4125, 538, 10, 40, "Output"]
+Cell[158162, 3963, 159, 3, 40, "Input"],
+Cell[158324, 3968, 147, 3, 38, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[161524, 4140, 465, 11, 41, "Input"],
-Cell[161992, 4153, 418, 8, 40, "Output"]
+Cell[158508, 3976, 947, 30, 121, "Input"],
+Cell[159458, 4008, 352, 8, 40, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[162447, 4166, 459, 13, 41, "Input"],
-Cell[162909, 4181, 353, 7, 38, "Output"]
+Cell[159847, 4021, 368, 10, 41, "Input"],
+Cell[160218, 4033, 287, 7, 40, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[163299, 4193, 332, 8, 40, "Input"],
-Cell[163634, 4203, 200, 4, 40, "Output"]
+Cell[160542, 4045, 147, 3, 41, "Input"],
+Cell[160692, 4050, 119, 2, 38, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[163871, 4212, 440, 12, 40, "Input"],
-Cell[164314, 4226, 363, 8, 40, "Output"]
+Cell[160848, 4057, 172, 4, 52, "Input"],
+Cell[161023, 4063, 121, 2, 38, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[164714, 4239, 576, 13, 40, "Input"],
-Cell[165293, 4254, 338, 5, 38, "Output"]
+Cell[161181, 4070, 128, 2, 40, "Input"],
+Cell[161312, 4074, 121, 2, 38, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[165668, 4264, 477, 10, 40, "Input"],
-Cell[166148, 4276, 245, 4, 38, "Output"]
+Cell[161470, 4081, 148, 3, 52, "Input"],
+Cell[161621, 4086, 117, 2, 38, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[166430, 4285, 321, 6, 52, "Input"],
-Cell[166754, 4293, 473, 14, 44, "Output"]
-}, Open  ]],
-Cell[167242, 4310, 1540, 33, 263, "Text"]
+Cell[161775, 4093, 207, 5, 40, "Input"],
+Cell[161985, 4100, 137, 3, 38, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[168819, 4348, 106, 1, 82, "Section"],
-Cell[168928, 4351, 3379, 114, 152, "Text"],
-Cell[172310, 4467, 92, 1, 38, "Input"],
-Cell[172405, 4470, 71, 1, 38, "Input"]
+Cell[162159, 4108, 218, 5, 40, "Input"],
+Cell[162380, 4115, 117, 2, 38, "Output"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[162546, 4123, 228, 3, 64, "Section"],
+Cell[CellGroupData[{
+Cell[162799, 4130, 1954, 53, 69, "Input"],
+Cell[164756, 4185, 833, 23, 41, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[165626, 4213, 1047, 31, 121, "Input"],
+Cell[166676, 4246, 538, 10, 40, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[167251, 4261, 465, 11, 41, "Input"],
+Cell[167719, 4274, 418, 8, 40, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[168174, 4287, 459, 13, 41, "Input"],
+Cell[168636, 4302, 353, 7, 38, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[169026, 4314, 332, 8, 40, "Input"],
+Cell[169361, 4324, 200, 4, 40, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[169598, 4333, 440, 12, 40, "Input"],
+Cell[170041, 4347, 363, 8, 40, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[170441, 4360, 576, 13, 40, "Input"],
+Cell[171020, 4375, 338, 5, 38, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[171395, 4385, 477, 10, 40, "Input"],
+Cell[171875, 4397, 245, 4, 38, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[172157, 4406, 321, 6, 52, "Input"],
+Cell[172481, 4414, 473, 14, 44, "Output"]
+}, Open  ]],
+Cell[172969, 4431, 1540, 33, 263, "Text"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[174546, 4469, 106, 1, 64, "Section"],
+Cell[174655, 4472, 3379, 114, 152, "Text"],
+Cell[178037, 4588, 92, 1, 38, "Input"],
+Cell[178132, 4591, 71, 1, 38, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[178240, 4597, 146, 2, 82, "Section"],
+Cell[CellGroupData[{
+Cell[178411, 4603, 1751, 50, 69, "Input"],
+Cell[180165, 4655, 754, 23, 41, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[180956, 4683, 273, 4, 38, "Input"],
+Cell[181232, 4689, 287, 5, 71, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[181556, 4699, 945, 30, 121, "Input"],
+Cell[182504, 4731, 335, 8, 40, "Output"]
+}, Open  ]],
+Cell[182854, 4742, 355, 10, 43, "Text"],
+Cell[CellGroupData[{
+Cell[183234, 4756, 317, 9, 41, "Input"],
+Cell[183554, 4767, 310, 7, 40, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[183901, 4779, 147, 3, 41, "Input"],
+Cell[184051, 4784, 119, 2, 38, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[184207, 4791, 172, 4, 52, "Input"],
+Cell[184382, 4797, 123, 2, 38, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[184542, 4804, 128, 2, 40, "Input"],
+Cell[184673, 4808, 119, 2, 38, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[184829, 4815, 148, 3, 52, "Input"],
+Cell[184980, 4820, 117, 2, 38, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[185134, 4827, 256, 6, 40, "Input"],
+Cell[185393, 4835, 142, 2, 38, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[185572, 4842, 266, 6, 40, "Input"],
+Cell[185841, 4850, 143, 2, 38, "Output"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[186033, 4858, 194, 3, 82, "Section"],
+Cell[CellGroupData[{
+Cell[186252, 4865, 1800, 51, 69, "Input"],
+Cell[188055, 4918, 821, 26, 41, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[188913, 4949, 271, 4, 38, "Input"],
+Cell[189187, 4955, 263, 4, 38, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[189487, 4964, 945, 30, 121, "Input"],
+Cell[190435, 4996, 361, 9, 40, "Output"]
+}, Open  ]],
+Cell[190811, 5008, 355, 10, 43, "Text"],
+Cell[CellGroupData[{
+Cell[191191, 5022, 317, 9, 41, "Input"],
+Cell[191511, 5033, 336, 8, 40, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[191884, 5046, 147, 3, 41, "Input"],
+Cell[192034, 5051, 141, 2, 38, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[192212, 5058, 172, 4, 52, "Input"],
+Cell[192387, 5064, 145, 2, 38, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[192569, 5071, 128, 2, 40, "Input"],
+Cell[192700, 5075, 141, 2, 38, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[192878, 5082, 148, 3, 52, "Input"],
+Cell[193029, 5087, 141, 2, 38, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[193207, 5094, 307, 7, 40, "Input"],
+Cell[193517, 5103, 194, 3, 38, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[193748, 5111, 269, 6, 40, "Input"],
+Cell[194020, 5119, 141, 2, 71, "Output"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }
